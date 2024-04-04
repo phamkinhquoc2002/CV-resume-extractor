@@ -1,1 +1,6 @@
-
+jobs:
+  example_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Access Secret Variable
+        run: echo ${{ secrets.GOOGLE_API_KEY }}
