@@ -2,6 +2,7 @@
 Extracting information from a CV (PDF) by using Google &lt;gemini-pro> API Key.
 ## Format
 The Information extracted will be saved in the example JSON format: """
+```json
 {
     "Full Name": "Quoc",
     "Email": "phamkinhquoc2002@gmail.com",
@@ -14,4 +15,3 @@ The Information extracted will be saved in the example JSON format: """
         "Experience": "2 years"
     }
 }
-"""
